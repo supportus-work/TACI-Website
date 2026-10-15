@@ -4,3 +4,16 @@
 @media(max-width:900px){.nav-menu{gap:14px;font-size:.8rem}.hero-grid{gap:25px}.hero-art{height:350px}.intro-grid,.feature-grid,.updates-grid,.involvement-grid,.contact-grid{gap:45px}.programme-grid{grid-template-columns:repeat(2,1fr)}.programme-card:last-child{grid-column:span 2}.values-strip>div{padding:22px 15px}.section{padding:78px 0}}
 @media(max-width:680px){.container{width:min(100% - 32px,540px)}.nav-wrap{min-height:70px}.menu-toggle{display:block}.nav-menu{display:none;position:absolute;top:69px;left:0;right:0;padding:18px 22px 22px;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.nav-menu.open{display:flex}.nav-menu a{padding:12px 4px}.nav-menu .nav-cta{text-align:center;margin-top:8px}.hero{padding-top:52px}.hero-grid{grid-template-columns:1fr;gap:35px}.hero-art{height:310px;max-width:430px;width:100%;margin:auto}.hero-bottom{margin-top:30px;font-size:.57rem}.hero-lede{font-size:1rem}.hero-actions{gap:16px}.intro-grid,.feature-grid,.updates-grid,.involvement-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.values-strip{grid-template-columns:1fr;margin-top:42px}.values-strip>div,.values-strip>div:first-child{padding:19px 0;border-right:0;border-bottom:1px solid var(--line)}.values-strip>div:last-child{border-bottom:0}.section-heading{display:block}.section-heading>p{margin-top:15px}.programme-grid{grid-template-columns:1fr}.programme-card:last-child{grid-column:auto}.programme-image{height:155px}.feature-visual{height:310px}.feature-card-note{left:8%;top:18%;width:220px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:160px 160px 160px}.gallery-a{grid-row:auto;grid-column:span 2}.gallery-tile{padding:15px}.footer-top{flex-wrap:wrap}.footer-motto{order:3;width:100%}.footer-bottom{flex-direction:column;gap:6px}.contact-form{padding:22px}.section{padding:65px 0}h1{font-size:clamp(2.6rem,12vw,4rem)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
