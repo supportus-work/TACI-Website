@@ -393,3 +393,26 @@
   left: 12px !important;
   z-index: 2 !important;
 }
+
+/* TEMPORARY TEST: remove blank space */
+
+.programme-image.image-girls {
+  display: block !important;
+  height: 240px !important;
+  min-height: 240px !important;
+  max-height: 240px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  background: #d8ead8 !important;
+}
+
+.programme-image.image-girls .programme-photo {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+}
