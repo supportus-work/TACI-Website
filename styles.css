@@ -365,10 +365,10 @@
 .programme-image.image-girls {
   position: relative !important;
   width: 100% !important;
-  height: 100px !important;
+  height: auto !important;
   min-height: 0 !important;
-  max-height: 100px !important;
-  aspect-ratio: auto !important;
+  max-height: none !important;
+  aspect-ratio: 2.1 / 1 !important;
   overflow: hidden !important;
   padding: 0 !important;
 }
@@ -377,8 +377,10 @@
   display: block !important;
   width: 100% !important;
   height: 100% !important;
-  max-height: 100px !important;
+  max-height: none !important;
+  aspect-ratio: 2.1 / 1 !important;
   object-fit: cover !important;
+  object-position: center !important;
 }
 
 .programme-image.image-girls > span {
