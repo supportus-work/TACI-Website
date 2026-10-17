@@ -276,3 +276,52 @@
 .contact-details .email-icon {
   color: #64748b;
 }
+
+/* TACI contact layout fix */
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 18px;
+}
+
+.contact-details > .contact-option {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100%;
+  gap: 12px;
+  margin: 0;
+}
+
+.contact-details > .contact-option > .contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+}
+
+.contact-details > .contact-option > .contact-option-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1;
+}
+
+.contact-details > .contact-option > .contact-option-text strong,
+.contact-details > .contact-option > .contact-option-text a {
+  display: block;
+  margin: 0;
+}
+
+.contact-details .whatsapp-icon {
+  color: #25D366;
+}
+
+.contact-details .email-icon {
+  color: #64748b;
+}
