@@ -234,10 +234,22 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.contact-details .contact-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
-  gap: 12px;
   width: 100%;
-  margin-bottom: 18px;
+  gap: 12px;
+  margin: 0;
 }
 
 .contact-details .contact-option .contact-icon {
@@ -247,6 +259,12 @@
   flex: 0 0 28px;
   width: 28px;
   height: 28px;
+  background: transparent;
+}
+
+.contact-details .contact-option .contact-icon svg {
+  width: 23px;
+  height: 23px;
 }
 
 .contact-details .contact-option .contact-option-text {
@@ -256,72 +274,24 @@
   gap: 4px;
 }
 
-.contact-details .contact-option .contact-option-text strong {
+.contact-option-text strong {
   font-size: 15px;
 }
 
-.contact-details .contact-option .contact-option-text a {
+.contact-option-text a {
+  color: inherit;
   font-size: 13px;
   text-decoration: none;
 }
 
-.contact-details .contact-option .contact-option-text a:hover {
+.contact-option-text a:hover {
   text-decoration: underline;
 }
 
-.contact-details .whatsapp-icon {
+.whatsapp-icon {
   color: #25D366;
 }
 
-.contact-details .email-icon {
-  color: #64748b;
-}
-
-/* TACI contact layout fix */
-.contact-details {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 18px;
-}
-
-.contact-details > .contact-option {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
-  justify-content: flex-start !important;
-  width: 100%;
-  gap: 12px;
-  margin: 0;
-}
-
-.contact-details > .contact-option > .contact-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 28px;
-  width: 28px;
-  height: 28px;
-}
-
-.contact-details > .contact-option > .contact-option-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 4px;
-  flex: 1;
-}
-
-.contact-details > .contact-option > .contact-option-text strong,
-.contact-details > .contact-option > .contact-option-text a {
-  display: block;
-  margin: 0;
-}
-
-.contact-details .whatsapp-icon {
-  color: #25D366;
-}
-
-.contact-details .email-icon {
+.email-icon {
   color: #64748b;
 }
