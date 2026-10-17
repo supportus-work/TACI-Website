@@ -72,8 +72,8 @@
 
 .footer-logo {
   display: block;
-  width: 80px;
-  max-width: 100%;
-  height: auto;
+  width: 38px;
+  height: 38px;
+  max-width: 38px;
   object-fit: contain;
 }
