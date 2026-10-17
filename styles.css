@@ -180,3 +180,52 @@
   outline: 3px solid #128C7E;
   outline-offset: 3px;
 }
+
+.contact-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-option .contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+}
+
+.contact-option .contact-icon svg {
+  width: 23px;
+  height: 23px;
+}
+
+.whatsapp-icon {
+  color: #25D366;
+}
+
+.email-icon {
+  color: #64748b;
+}
+
+.contact-option-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-option-text strong {
+  font-size: 15px;
+}
+
+.contact-option-text a {
+  color: inherit;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.contact-option-text a:hover {
+  text-decoration: underline;
+}
