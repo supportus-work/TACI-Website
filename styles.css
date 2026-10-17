@@ -363,18 +363,33 @@
 /* Girl-Child Empowerment photo */
 
 .programme-image.image-girls {
-  position: relative;
-  width: 100%;
-  height: auto;
-  aspect-ratio: auto;
-  overflow: hidden;
-  padding: 0;
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+  height: 180px !important;
+  min-height: 180px !important;
+  max-height: 180px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: none !important;
+  aspect-ratio: auto !important;
 }
 
 .programme-image.image-girls .programme-photo {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: none;
-  object-fit: contain;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center 35% !important;
+}
+
+.programme-image.image-girls > span {
+  position: absolute !important;
+  top: 12px !important;
+  left: 12px !important;
+  z-index: 2 !important;
 }
