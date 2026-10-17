@@ -380,26 +380,3 @@
   z-index: 2;
 }
 
-/* Girl-Child Empowerment photo */
-.programme-image.image-girls {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-.programme-image.image-girls .programme-photo {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.programme-image.image-girls > span {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 2;
-}
