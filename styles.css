@@ -69,3 +69,11 @@
 .programme-details li {
   margin-bottom: 8px;
 }
+
+.footer-logo {
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
