@@ -295,3 +295,31 @@
 .email-icon {
   color: #64748b;
 }
+
+/* TACI contact options layout fix */
+.contact-details {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 20px !important;
+}
+
+.contact-details > .contact-option {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  margin: 0 !important;
+  gap: 12px !important;
+}
+
+.contact-details > .contact-option .contact-option-text {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.contact-details .whatsapp-icon {
+  color: #25D366 !important;
+}
